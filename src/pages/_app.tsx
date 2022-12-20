@@ -12,7 +12,7 @@ const MyApp: AppType = ({ Component, pageProps }) => {
 
   return (
     <>
-      <div className="contain-app w-full min-h-screen pb-20 bg-gray-800">
+      <div className="contain-app w-full min-h-screen bg-gray-800">
         <nav className="w-full bg-slate-900 h-16 flex justify-center text-slate-500">
             <div className="nav-right mr-5">
               <ul className="flex transition-shadow">
@@ -28,22 +28,42 @@ const MyApp: AppType = ({ Component, pageProps }) => {
                   </li>
                 
                 </Link>
-                <Link href={"/education"}>
+                {/* <Link href={"/education"}>
                   <li className={`cursor-pointer shadow-inner hover:shadow-slate-500 p-5 hover:bg-gray-700 active:bg-gray-800 hover:text-cyan-500 hover:transition-colors ${navigate.asPath === "/education" ? "border-b-2 border-slate-500" : ""}`}>
                     Education
                   </li>
                 
-                </Link>
-                <Link href={"/resume"}>
+                </Link> */}
+                {/* <Link href={"/resume"}>
                   <li className={`cursor-pointer shadow-inner hover:shadow-slate-500 p-5 hover:bg-gray-700 active:bg-gray-800 hover:text-cyan-500 hover:transition-colors ${navigate.asPath === "/resume" ? "border-b-2 border-slate-500" : ""}`}>
                     Resume
                   </li>
                 
-                </Link>
+                </Link> */}
               </ul>
             </div>
           </nav>
         <Component {...pageProps} />
+        <footer className="mt-16 p-2 bg-slate-900 text-gray-300  flex gap-10">
+          <div className="email flex  gap-6">
+            <div>
+              Email |
+            </div>
+            <div className="text-slate-100">
+              <p>jalenarms@outlook.com</p>
+            </div>
+
+          </div>
+          <div className="phone flex  gap-6">
+            <div>
+              Phone |
+            </div>
+            <div className="text-slate-100">
+              <p>614-596-8904</p>
+            </div>
+
+          </div>
+        </footer>
       </div>
     
     </>
