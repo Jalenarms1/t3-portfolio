@@ -1,6 +1,7 @@
 import Link from 'next/link'
 import React, {useState} from 'react'
 import { type Project } from '../pages/projects'
+import Image from 'next/image'
 
 export default function ProjectCard({proj}: {proj: Project}) {
 
@@ -17,21 +18,18 @@ export default function ProjectCard({proj}: {proj: Project}) {
   return (
     <>
         <div className="proj cursor-pointer">
-            {<div onMouseOver={() => handleShowBtn("true")} onMouseLeave={() => handleShowBtn()} className={`card-img flex justify-center items-center h-64 w-[35rem] shadow-lg ${!showBtns ? "shadow-slate-500" : "shadow-cyan-600" } rounded`} style={{backgroundImage: `url('${proj.imageUrl}')`,backgroundSize: "cover", backgroundRepeat: "no-repeat"}}>
-                {showBtns && <div className='flex gap-3 backdrop-blur-lg  w-full h-full justify-center items-center'>
-                    <Link href={`${proj.liveUrl}`}>
-                      <button className='text-md px-6 rounded py-1 text-cyan-500 bg-slate-800 hover:shadow-md hover:shadow-cyan-500'>Test</button>
-                    </Link>
-                    <Link href={`${proj.githubUrl}`}>
+          
+          <div className="card-img border-b border-gray-300 pb-12 flex">
+            <Link href={`${proj.liveUrl}`} target="_blank">
+              <Image src={proj.imageUrl} alt={"proj-img"} width={500} height={500} className="rounded shadow-lg shadow-slate-500 h-64" />
+            
+            </Link>
 
-                    </Link>
-                    <button className='text-md px-6 rounded py-1 text-cyan-500 bg-slate-800 hover:shadow-md hover:shadow-cyan-500'>View code</button>
-                </div>}
-            </div>}
-            <div className="card-body text-slate-50 flex flex-col items-center py-2 gap-3 border-t border-gray-300 mt-10">
-            <h4 className="text-2xl">{proj.title}</h4>
-            <p className="text-xs text-cyan">{proj.languages}</p>
-            </div>
+          </div>
+          <div className="card-body text-slate-50 flex flex-col items-center py-2 gap-3">
+          <h4 className="text-2xl">{proj.title}</h4>
+          <p className="text-xs text-cyan">{proj.languages}</p>
+          </div>
 
         </div>
     </>

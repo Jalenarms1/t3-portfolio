@@ -12,7 +12,7 @@ const MyApp: AppType = ({ Component, pageProps }) => {
 
   return (
     <>
-      <div className="contain-app w-full min-h-screen bg-gray-800 relative">
+      <div className="contain-app w-[100%] min-h-screen bg-gray-800 relative">
         <nav className="w-full bg-slate-900 h-16 flex justify-center text-slate-500">
             <div className="nav-right mr-5">
               <ul className="flex transition-shadow">
@@ -44,10 +44,10 @@ const MyApp: AppType = ({ Component, pageProps }) => {
             </div>
           </nav>
         <Component {...pageProps} />
-        <footer className="mt-16 p-2 bg-slate-900 text-gray-300  flex gap-10 absolute bottom-0 w-full">
+        <footer className="mt-16 p-2 bg-slate-900 text-gray-300  flex max-sm:flex-col max-sm:items-center gap-10 absolute bottom-0 w-full">
           <div className="email flex  gap-6 ">
             <div className="text-slate-400">
-              Email |
+              Email 
             </div>
             <div className="text-slate-100">
               <p>jalenarms@outlook.com</p>
@@ -56,7 +56,7 @@ const MyApp: AppType = ({ Component, pageProps }) => {
           </div>
           <div className="phone flex  gap-6 ">
             <div className="text-slate-400">
-              Phone |
+              Phone
             </div>
             <div className="text-slate-100">
               <p>614-596-8904</p>
