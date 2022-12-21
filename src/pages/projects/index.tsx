@@ -16,7 +16,7 @@ export default function Project() {
     
   return (
     <>
-        <div className="wrap-projects flex flex-wrap gap-10 justify-center pt-10 pb-32 px-10">
+        <div className="wrap-projects flex flex-wrap gap-10 justify-center pt-10 pb-32 max-sm:pb-52 px-10">
             {projects.map((proj, index) => (
                 <ProjectCard key={index} proj={proj} />
         
