@@ -17,8 +17,8 @@ const Home: NextPage = () => {
         <link rel="icon" href="/favicon.ico" />
       </Head>
       
-      <div className="h-[30rem] flex flex-col items-center gap-8 justify-center ">
-        <div className="flex flex-col gap-2 justify-center text-cyan-600">
+      <div className="h-[45rem] flex flex-col items-center  gap-8 justify-center ">
+        <div className="flex flex-col gap-2 items-center justify-center text-cyan-600">
           <p className="text-6xl">Jalen Arms</p>
           <p className="text-center text-lg">Full-Stack Developer</p>
         </div>
