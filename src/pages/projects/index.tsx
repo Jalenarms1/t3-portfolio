@@ -5,7 +5,7 @@ import Image from 'next/image'
 export default function Project() {
   return (
     <>
-        <div className="wrap-projects flex flex-wrap gap-y-10 justify-evenly pt-10">
+        <div className="wrap-projects flex flex-wrap gap-y-10 justify-evenly pt-10 pb-32">
             {projects.map(proj => (
                 <>
                 <div className="proj">

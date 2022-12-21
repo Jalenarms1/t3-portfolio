@@ -12,7 +12,7 @@ const MyApp: AppType = ({ Component, pageProps }) => {
 
   return (
     <>
-      <div className="contain-app w-full min-h-screen bg-gray-800">
+      <div className="contain-app w-full min-h-screen bg-gray-800 relative">
         <nav className="w-full bg-slate-900 h-16 flex justify-center text-slate-500">
             <div className="nav-right mr-5">
               <ul className="flex transition-shadow">
@@ -44,7 +44,7 @@ const MyApp: AppType = ({ Component, pageProps }) => {
             </div>
           </nav>
         <Component {...pageProps} />
-        <footer className="mt-16 p-2 bg-slate-900 text-gray-300  flex gap-10">
+        <footer className="mt-16 p-2 bg-slate-900 text-gray-300  flex gap-10 absolute bottom-0 w-full">
           <div className="email flex  gap-6">
             <div>
               Email |
