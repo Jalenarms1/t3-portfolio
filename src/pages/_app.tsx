@@ -44,6 +44,7 @@ const MyApp: AppType = ({ Component, pageProps }) => {
             </div>
           </nav>
         <Component {...pageProps} />
+
         {/* <footer className="mt-16 p-2 bg-slate-900 text-gray-300  flex max-sm:flex-col max-sm:items-center gap-10 absolute bottom-0 w-full">
           <div className="email flex  gap-6 ">
             <div className="text-slate-400">

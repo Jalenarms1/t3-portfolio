@@ -2,6 +2,7 @@ import React, {useState} from 'react'
 import { projects } from '../../data/projects'
 import Image from 'next/image'
 import ProjectCard from "../../components/ProjectCard"
+import Contact from '../../components/Contact'
 
 export interface Project {
     title: string,
@@ -21,6 +22,8 @@ export default function Project() {
                 <ProjectCard key={index} proj={proj} />
         
             ))}
+
+            <Contact />
           
         </div>
 
