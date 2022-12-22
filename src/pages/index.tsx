@@ -30,7 +30,14 @@ const Home: NextPage = () => {
             <BsGithub className="text-4xl" />
           
           </Link>
-
+        </div>
+        <div className="flex flex-col items-center gap-2">
+          <p className="text-slate-400">Email</p>
+          <p className="text-slate-400">jalenarms@outlook.com</p>
+        </div>
+        <div className="flex flex-col items-center gap-2">
+          <p className="text-slate-400">Phone</p>
+          <p className="text-slate-400">614-596-8904</p>
         </div>
 
       </div>

@@ -1,5 +1,13 @@
 export const projects = [
     {
+        title: `StarHealth`,
+        imageUrl: `https://res.cloudinary.com/dvlhy87zl/image/upload/v1671682605/starh_lewwui.png`,
+        liveUrl: `https://www.starhealth.io/`,
+        languages: 'Next.js, TypeScript, Prisma, tRPC, Tailwind, PostrgeSQL',
+        githubUrl: `https://github.com/zhaihan001/Team-Project3-Shop-Shop`
+
+    },
+    {
         title: `Shop Shop`,
         imageUrl: `https://res.cloudinary.com/dvlhy87zl/image/upload/v1671233451/shopimg_cjfwih.png`,
         liveUrl: `https://mysterious-brushlands-70155.herokuapp.com/`,

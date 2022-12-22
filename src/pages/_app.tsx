@@ -23,7 +23,7 @@ const MyApp: AppType = ({ Component, pageProps }) => {
 
                 </Link>
                 <Link href={"/projects"}>
-                  <li className={`cursor-pointer shadow-inner hover:shadow-slate-500 p-5 hover:bg-gray-700 active:bg-gray-800 hover:text-gray-300 hover:transition-colors ${navigate.asPath === "/projects" ? "border-b-2 border-slate-500" : ""}`}>
+                  <li className={`cursor-pointer shadow-inner hover:shadow-slate-500 p-5 hover:bg-gray-700 active:bg-gray-800 hover:text-cyan-600 hover:transition-colors ${navigate.asPath === "/projects" ? "border-b-2 border-slate-500" : ""}`}>
                     Projects
                   </li>
                 
@@ -44,7 +44,7 @@ const MyApp: AppType = ({ Component, pageProps }) => {
             </div>
           </nav>
         <Component {...pageProps} />
-        <footer className="mt-16 p-2 bg-slate-900 text-gray-300  flex max-sm:flex-col max-sm:items-center gap-10 absolute bottom-0 w-full">
+        {/* <footer className="mt-16 p-2 bg-slate-900 text-gray-300  flex max-sm:flex-col max-sm:items-center gap-10 absolute bottom-0 w-full">
           <div className="email flex  gap-6 ">
             <div className="text-slate-400">
               <a href="mailto:jalenarms@outlook.com">Email </a>
@@ -65,7 +65,7 @@ const MyApp: AppType = ({ Component, pageProps }) => {
             </div>
 
           </div>
-        </footer>
+        </footer> */}
       </div>
     
     </>
