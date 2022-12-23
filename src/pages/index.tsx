@@ -6,6 +6,7 @@ import {projects} from "../data/projects";
 import {AiFillLinkedin} from "react-icons/ai/index";
 import {BsGithub} from "react-icons/bs/index"
 import Contact from "../components/Contact";
+import {SiUpwork} from "react-icons/si/index"
 
 
 const Home: NextPage = () => {
@@ -29,7 +30,9 @@ const Home: NextPage = () => {
           </Link>
           <Link href={"https://github.com/jalenarms1"} target="_blank" className="hover:text-cyan-600">
             <BsGithub className="text-4xl" />
-          
+          </Link>
+          <Link href={"https://www.upwork.com/freelancers/~01cd6b779e11f90eb8"} target="_blank" className="hover:text-cyan-600">
+            <SiUpwork className="text-4xl" />
           </Link>
         </div>
         <Contact />

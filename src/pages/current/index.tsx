@@ -7,9 +7,9 @@ export default function Current() {
   return (
     <>
         <div className="wrap-projects flex flex-wrap gap-10 justify-center pt-10 pb-32 max-sm:pb-52 mx-10">
-            {projects.filter(item => item.title ==="StarHealth").map(proj => (
+            {projects.filter(item => item.title ==="StarHealth").map((proj, i) => (
                 <>
-                    <div className='flex flex-col items-center gap-8'>
+                    <div key={i} className='flex flex-col items-center gap-8'>
                         <ProjectCard proj={proj} />
                         <div className='flex flex-col sm:[90%] md:w-[70%] lg:w-[60%] xl:w-[50%] 2xl:w-[45%]  m-auto p-4 rounded shadow-md shadow-cyan-600'>
 
