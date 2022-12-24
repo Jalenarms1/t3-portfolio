@@ -24,7 +24,7 @@ const Home: NextPage = () => {
           <p className="text-6xl">Jalen Arms</p>
           <p className="text-center text-lg">Full-Stack Developer</p>
         </div>
-        <div className="icons flex gap-2 text-slate-500">
+        <div className="icons flex gap-3 text-slate-500">
           <Link href={"https://www.linkedin.com/in/jalen-arms-38304a241"} target="_blank" className="hover:text-cyan-600">
             <AiFillLinkedin className="text-4xl" />
           </Link>
