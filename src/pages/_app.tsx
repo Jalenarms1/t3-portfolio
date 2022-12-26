@@ -6,6 +6,7 @@ import "../styles/globals.css";
 import Link from "next/link";
 import { useRouter } from "next/router";
 import Image from "next/image";
+import { SiHomebridge  } from "react-icons/si/index";
 
 const MyApp: AppType = ({ Component, pageProps }) => {
   const navigate = useRouter();
@@ -17,10 +18,10 @@ const MyApp: AppType = ({ Component, pageProps }) => {
             <div className="nav-right mr-5">
               <ul className="flex transition-shadow">
                 <Link href={"/"}>
-                  <li className={`pt-1 px-2 ${navigate.asPath === "/" ? "border-b-2 border-slate-500" : ""} `}>
-                    <Image src={"/images/house-1.1s-200px.png"} alt={"home"} width={58} height={50} />
+                  <li className={`cursor-pointer shadow-inner hover:shadow-slate-500 px-5 py-3 h-full hover:bg-gray-700 active:bg-gray-800 hover:text-cyan-600 hover:transition-colors ${navigate.asPath === "/" ? "border-b-2 border-slate-500" : ""}`}>
+                    <SiHomebridge className={` text-4xl`} />
                   </li>
-
+                
                 </Link>
                 <Link href={"/projects"}>
                   <li className={`cursor-pointer shadow-inner hover:shadow-slate-500 p-5 hover:bg-gray-700 active:bg-gray-800 hover:text-cyan-600 hover:transition-colors ${navigate.asPath === "/projects" ? "border-b-2 border-slate-500" : ""}`}>
