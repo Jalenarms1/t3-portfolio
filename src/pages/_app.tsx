@@ -35,9 +35,9 @@ const MyApp: AppType = ({ Component, pageProps }) => {
                   </li>
                 
                 </Link> */}
-                <Link href={"/current"}>
-                  <li className={`cursor-pointer shadow-inner hover:shadow-slate-500 p-5 hover:bg-gray-700 active:bg-gray-800 hover:text-cyan-500 hover:transition-colors ${navigate.asPath === "/current" ? "border-b-2 border-slate-500" : ""}`}>
-                    Currently
+                <Link href={"/previous"}>
+                  <li className={`cursor-pointer shadow-inner hover:shadow-slate-500 p-5 hover:bg-gray-700 active:bg-gray-800 hover:text-cyan-500 hover:transition-colors ${navigate.asPath === "/previous" ? "border-b-2 border-slate-500" : ""}`}>
+                    Previously
                   </li>
                 
                 </Link>
