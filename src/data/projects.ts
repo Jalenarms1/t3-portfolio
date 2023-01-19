@@ -1,5 +1,13 @@
 export const projects = [
     {
+        title: `Budgeteer`,
+        imageUrl: `https://res.cloudinary.com/dvlhy87zl/image/upload/v1674151664/Screenshot_2023-01-19_110459_kuuy0c.png`,
+        liveUrl: `https://t3-budgeteer.vercel.app/`,
+        languages: 'Next.js, TypeScript, Prisma, tRPC, Tailwind, PostrgeSQL',
+        githubUrl: `https://github.com/Jalenarms1/t3-budgeteer`
+
+    },
+    {
         title: `StarHealth`,
         imageUrl: `https://res.cloudinary.com/dvlhy87zl/image/upload/v1671682605/starh_lewwui.png`,
         liveUrl: `https://www.starhealth.io/`,
