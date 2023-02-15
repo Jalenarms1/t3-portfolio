@@ -4,6 +4,8 @@ export const projects = [
         imageUrl: `https://res.cloudinary.com/dvlhy87zl/image/upload/v1676490792/dgcoffeepic_zwhczr.png`,
         liveUrl: `https://breaddaily.000webhostapp.com/index.php`,
         languages: 'PHP, MySQL, JavaScript, CSS',
+        githubUrl: `https://github.com/Jalenarms1/t3-budgeteer`
+
     },
     {
         title: `Budgeteer`,
