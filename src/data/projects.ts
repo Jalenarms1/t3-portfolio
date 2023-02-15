@@ -1,5 +1,11 @@
 export const projects = [
     {
+        title: `The Daily Grind`,
+        imageUrl: `https://res.cloudinary.com/dvlhy87zl/image/upload/v1676490792/dgcoffeepic_zwhczr.png`,
+        liveUrl: `https://breaddaily.000webhostapp.com/index.php`,
+        languages: 'PHP, MySQL, JavaScript, CSS',
+    },
+    {
         title: `Budgeteer`,
         imageUrl: `https://res.cloudinary.com/dvlhy87zl/image/upload/v1674151664/Screenshot_2023-01-19_110459_kuuy0c.png`,
         liveUrl: `https://t3-budgeteer.vercel.app/`,
