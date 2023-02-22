@@ -1,5 +1,13 @@
 export const projects = [
     {
+        title: `Silly Socks and More`,
+        imageUrl: `https://res.cloudinary.com/dvlhy87zl/image/upload/v1677099724/sslpphoto_r1uhs9.png`,
+        liveUrl: `https://www.sillysocksandmore.com`,
+        languages: 'Next.js, TypeScript, Prisma, tRPC, Tailwind, PostrgeSQL',
+        githubUrl: `https://github.com/Jalenarms1/sillysocks`
+
+    },
+    {
         title: `The Daily Grind`,
         imageUrl: `https://res.cloudinary.com/dvlhy87zl/image/upload/v1676490792/dgcoffeepic_zwhczr.png`,
         liveUrl: `https://breaddaily.000webhostapp.com/index.php`,
