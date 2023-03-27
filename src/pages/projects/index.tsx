@@ -8,6 +8,7 @@ export interface Project {
     title: string,
     imageUrl: string,
     liveUrl: string,
+    description: string,
     languages: string,
     githubUrl: string
 }
