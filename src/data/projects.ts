@@ -27,21 +27,21 @@ export const projects = [
 
     // },
     {
-        title: `Budgeteer`,
-        imageUrl: `https://res.cloudinary.com/dvlhy87zl/image/upload/v1674151664/Screenshot_2023-01-19_110459_kuuy0c.png`,
-        liveUrl: `https://t3-budgeteer.vercel.app/`,
-        description: "A full-stack application that allows users to design and maintain their monthly budget. Users are able to sign in with their Google account using Google OAuth. Once a budget has been created, expenses and gains can be added to track the flow of income throughought the month",
-        languages: 'Next.js | TypeScript | Prisma | tRPC | Tailwind | PostrgeSQL',
-        githubUrl: `https://github.com/Jalenarms1/t3-budgeteer`
-
-    },
-    {
         title: `StarHealth`,
         imageUrl: `https://res.cloudinary.com/dvlhy87zl/image/upload/v1671682605/starh_lewwui.png`,
         liveUrl: `https://www.starhealth.io/`,
         description: "A full-stack application that allows users to express their thoughts and communicate with others through an interactive comment section. Users are able to create an account and once signed in their session will be managed by JWT to keep the user logged in securely.",
         languages: 'Next.js | TypeScript | Prisma | tRPC | Tailwind | PostrgeSQL',
         githubUrl: `https://github.com/zhaihan001/Team-Project3-Shop-Shop`
+
+    },
+    {
+        title: `Budgeteer`,
+        imageUrl: `https://res.cloudinary.com/dvlhy87zl/image/upload/v1674151664/Screenshot_2023-01-19_110459_kuuy0c.png`,
+        liveUrl: `https://t3-budgeteer.vercel.app/`,
+        description: "A full-stack application that allows users to design and maintain their monthly budget. Users are able to sign in with their Google account using Google OAuth. Once a budget has been created, expenses and gains can be added to track the flow of income throughought the month",
+        languages: 'Next.js | TypeScript | Prisma | tRPC | Tailwind | PostrgeSQL',
+        githubUrl: `https://github.com/Jalenarms1/t3-budgeteer`
 
     },
     {
@@ -74,7 +74,7 @@ export const projects = [
         imageUrl: `https://res.cloudinary.com/dvlhy87zl/image/upload/v1668385635/flic-finder-img_jolkrv.png`,
         liveUrl: `https://jalenarms1.github.io/flic-finder-rjs/`,
         description: "A full-stack application that allows users to express their thoughts and communicate with others through an interactive comment section. Users are able to create an account and once signed in their session will be managed by JWT to keep the user logged in securely.",
-        languages: 'React JS',
+        languages: 'React JS | Bootstrap 5 | HTML',
         githubUrl: `https://github.com/Jalenarms1/flic-finder-rjs`
     },
     {
