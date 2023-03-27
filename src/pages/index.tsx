@@ -20,7 +20,7 @@ const Home: NextPage = () => {
       <section className="hero bg-cover bg-center flex justify-between" style={{ backgroundImage: 'linear-gradient(to bottom, rgba(0, 0, 0, 0.8), rgba(0, 0, 0, .85)), url("https://res.cloudinary.com/dvlhy87zl/image/upload/v1679852321/dynamic-wavy-line-colorful-background_67845-1117_jiumzc.jpg")'}}>
         <div className=" w-[90%] mx-auto pt-40 pb-20">
           <div className="flex flex-col">
-            <h1 className="text-6xl font-bold text-white leading-tight ">
+            <h1 className="text-6xl max-sm:text-5xl font-bold text-white leading-tight ">
               Jalen Arms
             </h1>
             <a className="w-fit text-gray-300 hover:text-blue-500" href="mailto:jalenarms@outlook.com text-xs">Email: jalenarms@outlook.com</a>
