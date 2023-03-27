@@ -14,7 +14,7 @@ const config = {
     defaultLocale: "en",
   },
   images: {
-    domains: ['besthqwallpapers.com', "loading.io", "res.cloudinary.com"]
+    domains: ['besthqwallpapers.com', "loading.io", "res.cloudinary.com", 'images.unsplash.com', 'via.placeholder.com', 'img.freepik.com']
   }
 };
 export default config;
