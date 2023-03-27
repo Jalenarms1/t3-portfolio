@@ -30,7 +30,7 @@ export const projects = [
         title: `StarHealth`,
         imageUrl: `https://res.cloudinary.com/dvlhy87zl/image/upload/v1671682605/starh_lewwui.png`,
         liveUrl: `https://www.starhealth.io/`,
-        description: "A full-stack application that allows users to express their thoughts and communicate with others through an interactive comment section. Users are able to create an account and once signed in their session will be managed by JWT to keep the user logged in securely.",
+        description: "A full-stack application that allows users to search and filter for specific medical information. The database was seeded with data from a third party API that has data on every transaction and every licensed member in the medical field.",
         languages: 'Next.js | TypeScript | Prisma | tRPC | Tailwind | PostrgeSQL',
         githubUrl: `https://github.com/zhaihan001/Team-Project3-Shop-Shop`
 

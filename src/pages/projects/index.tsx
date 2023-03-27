@@ -21,7 +21,7 @@ export default function Project() {
     <div style={{ backgroundImage: 'linear-gradient(to bottom, rgba(0, 0, 0, 0.8), rgba(0, 0, 0, .85)), url("https://res.cloudinary.com/dvlhy87zl/image/upload/v1679852321/dynamic-wavy-line-colorful-background_67845-1117_jiumzc.jpg")'}}>
       
       <div className=" mx-auto w-[90%] py-32">
-        <h2 className="text-6xl w-fit  text-gray-100 font-bold   pr-4 py-5 mb-10">Project Catalog</h2>
+        <h2 className="text-6xl max-sm:text-4xl max-sm:text-center max-sm:w-full w-fit  text-gray-100 font-bold   pr-4 py-5 mb-10">Project Catalog</h2>
         {/* <p className="text-sx mt-4 mb-10 text-gray-500">(Click on any image or title to view the deployed application)</p> */}
         <div className="grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-3 gap-4">
           {projects.map((item: Project, index: number) => (
