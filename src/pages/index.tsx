@@ -23,7 +23,8 @@ const Home: NextPage = () => {
             <h1 className="text-6xl max-sm:text-5xl font-bold text-white leading-tight ">
               Jalen Arms
             </h1>
-            <a className="w-fit text-gray-300 hover:text-blue-500" href="mailto:jalenarms@outlook.com text-xs">Email: jalenarms@outlook.com</a>
+            <p className="w-fit text-gray-300 text-xl">Data Engineer at Community Bridges, Inc.</p>
+            <a className="w-fit text-sm text-gray-300 hover:text-blue-500" href="mailto:jalenarms@outlook.com text-xs">Email: jalenarms@outlook.com</a>
             <div className="icons flex gap-3 text-gray-300 my-2">
               <Link href={"https://www.linkedin.com/in/jalen-arms-38304a241"} target="_blank" className="hover:text-blue-600">
                 <AiFillLinkedin className="text-4xl" />
