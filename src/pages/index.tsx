@@ -6,6 +6,8 @@ import {AiFillLinkedin} from "react-icons/ai/index";
 import {BsGithub} from "react-icons/bs/index"
 import {SiUpwork} from "react-icons/si/index"
 import NewProjectCard from "../components/NewProjectCard";
+import { Project } from "./projects";
+import Image from "next/image";
 
 
 const Home: NextPage = () => {
@@ -52,11 +54,12 @@ const Home: NextPage = () => {
         <div className=" mx-auto w-[90%]">
           <h2 className="text-5xl w-fit  text-gray-100 font-bold border-b border-gray-700 shadow-inner shadow-gray-900 pr-4 py-5 ">Projects</h2>
           <p className="text-sx mt-4 mb-10 text-gray-500">(Click on any image or title to view the deployed application)</p>
-          <div className="flex flex-col gap-16">
+          <div className="flex flex-col max-sm:gap-14 sm:gap-20 w-full">
             {projects.slice(0,3).map((proj, index) => (
               <NewProjectCard key={index} proj={proj} />
           
             ))}
+            
             <div className="see-more-btn w-full flex justify-center py-8" id="see-more-btn">
               <Link href={"/projects"} className="w-1/4 max-sm:w-3/4 px-3 py-2 bg-gray-300 hover:bg-gray-200 active:bg-gray-300 rounded-md text-gray-900 text-center">
                 See More...

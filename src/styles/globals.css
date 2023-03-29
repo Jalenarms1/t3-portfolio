@@ -11,8 +11,37 @@
 
 }
 
-::-webkit-scrollbar {
-    width: 0px;
-    background-color: transparent;
+.scroll-container {
+}
+
+.scroll-list {
+    overflow-x: scroll;
+    padding-bottom: 5%;
+    display: flex;
+    
+}
+
+.scroll-list > li {
+    display: flex;
+
+}
+
+
+
+.scroll-list::-webkit-scrollbar {
+    width: 2px;
+  }
+  
+  .scroll-list::-webkit-scrollbar-track {
+    background-color: #f1f1f1;
+  }
+  
+  .scroll-list::-webkit-scrollbar-thumb {
+    background-color: #888;
+    /* border-radius: 5px; */
+  }
+  
+  .scroll-list::-webkit-scrollbar-thumb:hover {
+    background-color: #555;
   }
 
