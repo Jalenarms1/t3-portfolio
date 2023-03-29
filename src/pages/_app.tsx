@@ -3,10 +3,7 @@ import { type AppType } from "next/app";
 import { trpc } from "../utils/trpc";
 
 import "../styles/globals.css";
-import Link from "next/link";
 import { useRouter } from "next/router";
-import Image from "next/image";
-import { SiHomebridge  } from "react-icons/si/index";
 import Navbar from "../components/Navbar";
 
 const MyApp: AppType = ({ Component, pageProps }) => {

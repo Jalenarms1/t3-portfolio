@@ -1,4 +1,5 @@
 import Link from 'next/link'
+import { useRouter } from 'next/router'
 import React, {useState} from 'react'
 import { BiHomeAlt2 } from 'react-icons/bi'
 import { FcDocument } from 'react-icons/fc'
@@ -7,7 +8,7 @@ import ResumeModal from './ResumeModal'
 
 export default function Navbar() {
     const [openModal, setOpenModal] = useState<boolean>(false)
-
+    const router = useRouter()
     const toggleModal = () => {
       setOpenModal(!openModal)
     }
@@ -22,11 +23,11 @@ export default function Navbar() {
             </button>
             
             <div className="flex items-center">
-              <Link href="/"className={`text-white hover:text-gray-300 px-4 flex items-center gap-1`}>
+              <Link href="/"className={`text-white ${router.asPath === '/' ? 'border-b' : ''}  hover:text-gray-300 mx-4 py-1 pr-1 flex items-center gap-1`}>
                 <BiHomeAlt2 />
                 <p>Home</p>
               </Link>
-              <Link href="/projects"className="text-white hover:text-gray-300 px-4 flex items-center gap-1">
+              <Link href="/projects"className={`text-white ${router.asPath === '/projects' ? 'border-b' : ''} hover:text-gray-300 mx-4 py-1 pr-1 flex items-center gap-1`}>
                 <IoMdCodeWorking />
                 <p>Projects</p>
               </Link>
