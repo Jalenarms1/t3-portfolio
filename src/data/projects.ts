@@ -13,10 +13,20 @@ export const projects = [
         imageUrl: `https://res.cloudinary.com/dvlhy87zl/image/upload/v1679813931/Screenshot_2023-03-25_235825_vk96fh.png`,
         liveUrl: `https://ngclient.azurewebsites.net/`,
         description: "A full-stack application that allows users to express their thoughts and communicate with others through an interactive comment section. Users can create a secure account and their sessions will be managed using JWT tokens",
-        languages: 'ASP.NET Core 6 | Angular 14 | Entity Framework | SQL Server | Tailwind CSS',
+        languages: 'ASP.NET Core 6 | Angular | Entity Framework | SQL Server | Tailwind CSS',
         githubUrl: `https://github.com/Jalenarms1/ng-blog`
 
     },
+    {
+        title: `myServices`,
+        imageUrl: `https://res.cloudinary.com/dvlhy87zl/image/upload/v1680676561/myservices_acq4xv.png`,
+        liveUrl: `https://myservices.azurewebsites.net/`,
+        description: "A full-stack application that allows independant contractors to bill their customers by emailing a link to the website at a route that will display the service info and the paypal checkout buttons to complete their payment. There is also a UI for viewing/cashing out your earnings, and one for viewing all previous services.",
+        languages: 'ASP.NET Core 6 | Angular | Entity Framework | SQL Server | Tailwind CSS',
+        githubUrl: `https://github.com/Jalenarms1/myServices`
+
+    },
+    // 
     // {
     //     title: `The Daily Grind`,
     //     imageUrl: `https://res.cloudinary.com/dvlhy87zl/image/upload/v1676490792/dgcoffeepic_zwhczr.png`,
