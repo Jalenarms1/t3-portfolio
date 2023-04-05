@@ -21,7 +21,7 @@ export const projects = [
         title: `myServices`,
         imageUrl: `https://res.cloudinary.com/dvlhy87zl/image/upload/v1680676561/myservices_acq4xv.png`,
         liveUrl: `https://myservices.azurewebsites.net/`,
-        description: "A full-stack application that allows independant contractors to bill their customers by emailing a link to the website at a route that will display the service info and the paypal checkout buttons to complete their payment. There is also a UI for viewing/cashing out your earnings, and one for viewing all previous services.",
+        description: "A full-stack application that allows independent contractors to bill their customers by emailing a link to the website at a route that will display the service info and the paypal checkout buttons to complete their payment. There is also a UI for viewing/cashing out your earnings, and one for viewing all previous services.",
         languages: 'ASP.NET Core 6 | Angular | Entity Framework | SQL Server | Tailwind CSS',
         githubUrl: `https://github.com/Jalenarms1/myServices`
 

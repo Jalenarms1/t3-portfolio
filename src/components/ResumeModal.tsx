@@ -6,7 +6,7 @@ import '@react-pdf-viewer/core/lib/styles/index.css';
 
 export default function ResumeModal({toggleModal}: {toggleModal: () => void}) {
     function downloadFile() {
-        fetch("https://res.cloudinary.com/dvlhy87zl/image/upload/v1679876656/Jalen_Arms_-_Resume_2023_z5zcx2.pdf")
+        fetch("https://res.cloudinary.com/dvlhy87zl/image/upload/v1680677411/Jalen_Arms_-_Resume_2023_xkkagb.pdf")
           .then(response => response.blob())
           .then(blob => {
             const url = URL.createObjectURL(blob);
