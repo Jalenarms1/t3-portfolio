@@ -37,7 +37,7 @@ export default function ResumeModal({toggleModal}: {toggleModal: () => void}) {
                     
                 </div>
                 <Worker  workerUrl="https://unpkg.com/pdfjs-dist@3.4.120/build/pdf.worker.min.js">
-                    <Viewer fileUrl={"https://res.cloudinary.com/dvlhy87zl/image/upload/v1679934944/Jalen_Arms_-_Resume_2023_ehc2qt.pdf"} />
+                    <Viewer fileUrl={"https://res.cloudinary.com/dvlhy87zl/image/upload/v1680677411/Jalen_Arms_-_Resume_2023_xkkagb.pdf"} />
                 </Worker>
                 <div className="pb-10">
                     
