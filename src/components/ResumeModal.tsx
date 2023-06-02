@@ -18,7 +18,7 @@ export default function ResumeModal({toggleModal}: {toggleModal: () => void}) {
           });
       } 
   return (
-    <div className="fixed z-50 inset-0 overflow-y-auto">
+    <div className="fixed z-50 inset-0 overflow-y-auto" id="resume-modal">
         <div className="flex items-center justify-center min-h-screen">
             <div className="relative bg-white rounded-md w-2/4  h-[575px] max-sm:w-full max-sm:h-screen overflow-auto mx-auto  pt-5">
                 <button onClick={toggleModal} className="absolute top-0 right-0 m-4 z-10 bg-red-500 active:bg-red-700 text-white rounded-sm" aria-label="Close modal">

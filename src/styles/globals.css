@@ -45,3 +45,16 @@
     background-color: #555;
   }
 
+  #resume-modal {
+    animation: fadein .5s forwards;
+  }
+
+  @keyframes fadein {
+    0% {
+      opacity: 0;
+    }
+    100% {
+      opacity: 1;
+    }
+  }
+
