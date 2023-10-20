@@ -1,5 +1,14 @@
 export const projects = [
     {
+        title: `Signalizer.io`,
+        imageUrl: `https://res.cloudinary.com/dvlhy87zl/image/upload/v1697831893/sigimg_rbwkhb.png`,
+        liveUrl: `https://signalizer-io-v1.vercel.app/stock`,
+        description: "Full-stack application that allows the user to see real-time news articles and pricing data for any stock on the stock market, and also any crypto coin. Once subscribed to the appropriate tier plan, the user can also access a real-time chat feed of positive and negative signals on stocks according to their most recent performance",
+        languages: 'Next.js | Tailwind CSS | Chart.js | Stripe | Cron jobs',
+        githubUrl: `https://github.com/Jalenarms1/ng-blog`
+
+    },
+    {
         title: `Silly Socks and More`,
         imageUrl: `https://res.cloudinary.com/dvlhy87zl/image/upload/v1677099724/sslpphoto_r1uhs9.png`,
         liveUrl: `https://www.sillysocksandmore.com`,
@@ -9,21 +18,21 @@ export const projects = [
         
     },
     {
-        title: `Blogger`,
-        imageUrl: `https://res.cloudinary.com/dvlhy87zl/image/upload/v1679813931/Screenshot_2023-03-25_235825_vk96fh.png`,
-        liveUrl: `https://ngclient.azurewebsites.net/`,
-        description: "A full-stack application that allows users to express their thoughts and communicate with others through an interactive comment section. Users can create a secure account and their sessions will be managed using JWT tokens",
-        languages: 'ASP.NET Core 6 | Angular | Entity Framework | SQL Server | Tailwind CSS',
-        githubUrl: `https://github.com/Jalenarms1/ng-blog`
-
-    },
-    {
         title: `myServices`,
         imageUrl: `https://res.cloudinary.com/dvlhy87zl/image/upload/v1680676561/myservices_acq4xv.png`,
         liveUrl: `https://myservices.azurewebsites.net/`,
         description: "A full-stack application that allows independent contractors to bill their customers by emailing a link to the website at a route that will display the service info and the paypal checkout buttons to complete their payment. There is also a UI for viewing/cashing out your earnings, and one for viewing all previous services.",
         languages: 'ASP.NET Core 6 | Angular | Entity Framework | SQL Server | Tailwind CSS',
         githubUrl: `https://github.com/Jalenarms1/myServices`
+
+    },
+    {
+        title: `Blogger`,
+        imageUrl: `https://res.cloudinary.com/dvlhy87zl/image/upload/v1679813931/Screenshot_2023-03-25_235825_vk96fh.png`,
+        liveUrl: `https://ngclient.azurewebsites.net/`,
+        description: "A full-stack application that allows users to express their thoughts and communicate with others through an interactive comment section. Users can create a secure account and their sessions will be managed using JWT tokens",
+        languages: 'ASP.NET Core 6 | Angular | Entity Framework | SQL Server | Tailwind CSS',
+        githubUrl: `https://github.com/Jalenarms1/ng-blog`
 
     },
     // 

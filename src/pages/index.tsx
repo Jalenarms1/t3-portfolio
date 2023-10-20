@@ -44,7 +44,7 @@ const Home: NextPage = () => {
             Full-stack Software Developer.
           </p>
           <p className="text-sm text-white leading-tight mb-12">
-           Angular <span className="text-red-500">|</span> ASP.NET 6 <span className="text-blue-500">|</span> React JS <span className="text-purple-500">|</span> Next.js <span className="text-cyan-500">|</span>  Node.js <span className="text-green-500">|</span> Python <span className="text-indigo-500">|</span> SQL Server
+           Next.js <span className="text-red-500">|</span> React JS <span className="text-blue-500">|</span> ASP.NET 6 <span className="text-purple-500">|</span> Angular  <span className="text-cyan-500">|</span>  Node.js <span className="text-green-500">|</span> Python <span className="text-indigo-500">|</span> SQL Server
           </p>
           
         </div>
