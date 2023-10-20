@@ -1,7 +1,7 @@
 export const projects = [
     {
         title: `Signalizer.io`,
-        imageUrl: `https://res.cloudinary.com/dvlhy87zl/image/upload/v1697831893/sigimg_rbwkhb.png`,
+        imageUrl: `https://res.cloudinary.com/dvlhy87zl/image/upload/v1697834330/sigimg_emkqxi.png`,
         liveUrl: `https://signalizer-io-v1.vercel.app/stock`,
         description: "Full-stack application that allows the user to see real-time news articles and pricing data for any stock on the stock market, and also any crypto coin. Once subscribed to the appropriate tier plan, the user can also access a real-time chat feed of positive and negative signals on stocks according to their most recent performance",
         languages: 'Next.js | Tailwind CSS | Chart.js | Stripe | Cron jobs',
