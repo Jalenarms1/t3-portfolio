@@ -15,26 +15,26 @@ export const projects = [
         description: "An ecommerce website for a local business that comes with a separate admin app that allows them to mange their inventory and orders. This app implements the Paypal API, where live payments can be made to the vendor in a secure manner",
         languages: 'Next.js | TypeScript | Prisma | tRPC | Tailwind | PostrgeSQL',
         githubUrl: `https://github.com/Jalenarms1/sillysocks`
-        
-    },
-    {
-        title: `myServices`,
-        imageUrl: `https://res.cloudinary.com/dvlhy87zl/image/upload/v1680676561/myservices_acq4xv.png`,
-        liveUrl: `https://myservices.azurewebsites.net/`,
-        description: "A full-stack application that allows independent contractors to bill their customers by emailing a link to the website at a route that will display the service info and the paypal checkout buttons to complete their payment. There is also a UI for viewing/cashing out your earnings, and one for viewing all previous services.",
-        languages: 'ASP.NET Core 6 | Angular | Entity Framework | SQL Server | Tailwind CSS',
-        githubUrl: `https://github.com/Jalenarms1/myServices`
 
     },
-    {
-        title: `Blogger`,
-        imageUrl: `https://res.cloudinary.com/dvlhy87zl/image/upload/v1679813931/Screenshot_2023-03-25_235825_vk96fh.png`,
-        liveUrl: `https://ngclient.azurewebsites.net/`,
-        description: "A full-stack application that allows users to express their thoughts and communicate with others through an interactive comment section. Users can create a secure account and their sessions will be managed using JWT tokens",
-        languages: 'ASP.NET Core 6 | Angular | Entity Framework | SQL Server | Tailwind CSS',
-        githubUrl: `https://github.com/Jalenarms1/ng-blog`
+    // {
+    //     title: `myServices`,
+    //     imageUrl: `https://res.cloudinary.com/dvlhy87zl/image/upload/v1680676561/myservices_acq4xv.png`,
+    //     liveUrl: `https://myservices.azurewebsites.net/`,
+    //     description: "A full-stack application that allows independent contractors to bill their customers by emailing a link to the website at a route that will display the service info and the paypal checkout buttons to complete their payment. There is also a UI for viewing/cashing out your earnings, and one for viewing all previous services.",
+    //     languages: 'ASP.NET Core 6 | Angular | Entity Framework | SQL Server | Tailwind CSS',
+    //     githubUrl: `https://github.com/Jalenarms1/myServices`
 
-    },
+    // },
+    // {
+    //     title: `Blogger`,
+    //     imageUrl: `https://res.cloudinary.com/dvlhy87zl/image/upload/v1679813931/Screenshot_2023-03-25_235825_vk96fh.png`,
+    //     liveUrl: `https://ngclient.azurewebsites.net/`,
+    //     description: "A full-stack application that allows users to express their thoughts and communicate with others through an interactive comment section. Users can create a secure account and their sessions will be managed using JWT tokens",
+    //     languages: 'ASP.NET Core 6 | Angular | Entity Framework | SQL Server | Tailwind CSS',
+    //     githubUrl: `https://github.com/Jalenarms1/ng-blog`
+
+    // },
     // 
     // {
     //     title: `The Daily Grind`,
@@ -64,6 +64,14 @@ export const projects = [
 
     },
     {
+        title: `Book Search & Save`,
+        imageUrl: `https://res.cloudinary.com/dvlhy87zl/image/upload/v1669066056/booksearchimg_jwsafl.png`,
+        liveUrl: `https://damp-eyrie-96065.herokuapp.com/`,
+        description: "A full-stack application that allows users to express their thoughts and communicate with others through an interactive comment section. Users are able to create an account and once signed in their session will be managed by JWT to keep the user logged in securely.",
+        languages: 'React JS | Node.js | Express.js | MongoDB | GraphQL | JWT',
+        githubUrl: `https://github.com/Jalenarms1/new-graphql-refactor`
+    },
+    {
         title: `Shop Shop`,
         imageUrl: `https://res.cloudinary.com/dvlhy87zl/image/upload/v1671233451/shopimg_cjfwih.png`,
         liveUrl: `https://mysterious-brushlands-70155.herokuapp.com/`,
@@ -71,14 +79,6 @@ export const projects = [
         languages: 'React JS | Node.js | GraphQL | MongoDB / Mongoose | JWT',
         githubUrl: `https://github.com/zhaihan001/Team-Project3-Shop-Shop`
 
-    },
-    {
-        title: `Book Search & Save`,
-        imageUrl: `https://res.cloudinary.com/dvlhy87zl/image/upload/v1669066056/booksearchimg_jwsafl.png`,
-        liveUrl: `https://damp-eyrie-96065.herokuapp.com/`,
-        description: "A full-stack application that allows users to express their thoughts and communicate with others through an interactive comment section. Users are able to create an account and once signed in their session will be managed by JWT to keep the user logged in securely.",
-        languages: 'React JS | Node.js | Express.js | MongoDB | GraphQL | JWT',
-        githubUrl: `https://github.com/Jalenarms1/new-graphql-refactor`
     },
     {
         title: `The Chef's Hat`,
